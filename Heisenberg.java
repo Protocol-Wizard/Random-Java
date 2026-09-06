@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Heisenberg{
+public class Heisenberg{
     public static void main(String[] args){
         System.out.print("Say my name: ");
         Scanner s = new Scanner(System.in);
@@ -9,7 +9,8 @@ class Heisenberg{
         boolean isequal1 = (name2).equals(name1);
         if (isequal1){
             System.out.println("You're goddamn right.");
-        } else {
+        }
+        else{
             System.out.println("You're goddamn wrong.");
         }
     }
